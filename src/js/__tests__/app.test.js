@@ -1,8 +1,9 @@
 import specialFind from '../app';
 
-describe('object sort with arr properties and alphabet', () => {
+describe('find specials skills of character and test that', () => {
   let character;
   let result;
+  let result2;
 
   beforeEach(() => {
     character = {
@@ -55,6 +56,7 @@ describe('object sort with arr properties and alphabet', () => {
     const addSpecial = { id: 10, name: 'Удар по печени', icon: 'http://...' };
     character.special.push(addSpecial);
     result.push(addSpecial);
+    result[result.length - 1].description = 'Описание недоступно';
     expect(specialFind(character)).toEqual(result);
   });
 });
