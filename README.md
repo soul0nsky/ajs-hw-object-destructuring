@@ -1,7 +1,10 @@
 # ajs-homeworks-object-destructuring
+
 # Домашнее задание к лекции «Object, Reflection и Proxy»
 
 ## Destructuring
+
+[![Build status](https://ci.appveyor.com/api/projects/status/bkn6m3lcyi2nb0uc?svg=true)](https://ci.appveyor.com/project/soul0nsky/ajs-homeworks-object-destructuring)
 
 ### Легенда
 
@@ -10,6 +13,7 @@
 ### Описание
 
 Вам необходимо для панели выбора варианта атаки вытащить id, иконку и описание из объекта:
+
 ```javascript
 const character = {
   name: 'Лучник',
@@ -31,7 +35,7 @@ const character = {
       icon: 'http://...'
       // <- обратите внимание, описание "засекречено"
     }
-  ]	
+  ] 
 }
 ```
 
