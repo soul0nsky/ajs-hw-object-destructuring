@@ -3,7 +3,6 @@ import specialFind from '../app';
 describe('find specials skills of character and test that', () => {
   let character;
   let result;
-  let result2;
 
   beforeEach(() => {
     character = {
